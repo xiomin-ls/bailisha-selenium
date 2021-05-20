@@ -42,7 +42,7 @@ class TestClass():
     def test_five(self):
         driver.find_element_by_id("kw").send_keys("Test search")
     #数字+空格
-    def test_sex(self):
+    def test_six(self):
         driver.find_element_by_id("kw").send_keys("1234 124")
     #中文+空格
     def test_seven(self):
